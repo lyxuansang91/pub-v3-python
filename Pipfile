@@ -1,0 +1,43 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+autopep8 = "*"
+flake8 = "*"
+pytest = "*"
+factory-boy = "*"
+pytest-cov = "*"
+pytest-mock = "*"
+docstring-parser = "*"
+pylint = "*"
+rope = "*"
+
+[packages]
+flask-sqlalchemy = "*"
+flask = "*"
+flask-migrate = "*"
+flasgger = "*"
+requests = "*"
+pymysql = "*"
+python-dotenv = "*"
+jsonschema = "*"
+flask-login = "*"
+authlib = "*"
+flask-restplus = "*"
+flask-marshmallow = "*"
+marshmallow-sqlalchemy = "*"
+celery = "*"
+kubernetes = "*"
+passlib = "*"
+pyjwt = "*"
+redis = "*"
+gunicorn = "*"
+sqlalchemy-utils = "*"
+flask-jwt-extended = "*"
+flask-cors = "*"
+# csv = "*"
+
+[requires]
+python_version = "3.7"
